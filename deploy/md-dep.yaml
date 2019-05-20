@@ -20,4 +20,4 @@ spec:
       - name: metrics-infod
         image: quay.io/brice/metrics-demo:v4-subscription-service
         ports:
-        - containerPort: 9898
+        - containerPort: 3000
