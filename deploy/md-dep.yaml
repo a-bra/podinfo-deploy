@@ -18,5 +18,4 @@ spec:
     spec:
       containers:
       - name: metrics-infod
-        image: https://quay.io/repository/brice/metrics-demo:v4-subscription-service
-
+        image: quay.io/brice/metrics-demo:v4-subscription-service
