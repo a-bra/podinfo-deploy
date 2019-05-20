@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - name: metrics-infod
-        image: quay.io/brice/metrics-demo:v4-subscription-service
+        image: quay.io/brice/metrics-demo:master
         ports:
         - containerPort: 3000
