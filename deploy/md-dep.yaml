@@ -17,7 +17,7 @@ spec:
       labels:
         app: metrics-info
       annotations:
-        prometheus.io/scrape: 'true'
+        prometheus.io/scrape: 'false'
     spec:
       containers:
       - name: metrics-infod
