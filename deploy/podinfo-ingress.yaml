@@ -15,5 +15,9 @@ spec:
           serviceName: podinfo
           servicePort: 9898
         path: /podinfo
+      - backend2
+          serviceName: metrics-info
+          servicePort: 3000
+        path: /metrics-info
 status:
   loadBalancer: {}
